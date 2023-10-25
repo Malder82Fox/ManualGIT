@@ -45,3 +45,7 @@ git checkout <#hashcommit>
 ```sh
 git diff
 ```
+посмотреть разницу между версиями 
+```sh
+git diff <hashcommit_1> <hashcommit_2>
+```
