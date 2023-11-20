@@ -49,3 +49,25 @@ git diff
 ```sh
 git diff <hashcommit_1> <hashcommit_2>
 ```
+
+## Ветки в GIT ##
+
+1. Dывести список всех имеющихся веток на экран:
+```sh 
+git branch
+```
+
+2. Создать новую ветку:
+```sh
+git branch <new_branch_name>
+```
+3. Перейти на другую ветку <branch_name_other>:
+```sh
+git checkout <branch_name_other>
+```
+
+4. Удалить ветку <branch_name_for_delete>:
+```sh
+git branch -d <branch_name_for_delete>
+```
+
