@@ -74,3 +74,8 @@ git branch -d <branch_name_for_delete>
 ```sh
 git log --graph
 ```
+6. Сливаем ветку <branch_name> с текущей веткой
+(В текущую ветку добавит информацию из ветки <branch_name>. Возникают конфликты при merge -- Когда в разных ветках одна и та же строка написана по-разному):
+```sh
+git merge <branch_name>
+```
