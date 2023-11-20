@@ -70,4 +70,7 @@ git checkout <branch_name_other>
 ```sh
 git branch -d <branch_name_for_delete>
 ```
-
+5. Увидеть лог коммитов с визуализацией между ветками:
+```sh
+git log --graph
+```
