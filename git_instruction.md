@@ -57,7 +57,7 @@ git diff <hashcommit_1> <hashcommit_2>
 git branch
 ```
 
-2. Создать новую ветку:
+2. Создать новую ветку <new_branch_name>:
 ```sh
 git branch <new_branch_name>
 ```
