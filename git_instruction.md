@@ -50,6 +50,8 @@ git diff
 git diff <hashcommit_1> <hashcommit_2>
 ```
 
+
+
 ## Ветки в GIT ##
 
 1. Dывести список всех имеющихся веток на экран:
@@ -61,6 +63,7 @@ git branch
 ```sh
 git branch <new_branch_name>
 ```
+
 3. Перейти на другую ветку <branch_name_other>:
 ```sh
 git checkout <branch_name_other>
@@ -70,12 +73,18 @@ git checkout <branch_name_other>
 ```sh
 git branch -d <branch_name_for_delete>
 ```
+
 5. Увидеть лог коммитов с визуализацией между ветками:
 ```sh
 git log --graph
 ```
+
 6. Сливаем ветку <branch_name> с текущей веткой
 (В текущую ветку добавит информацию из ветки <branch_name>. Возникают конфликты при merge -- Когда в разных ветках одна и та же строка написана по-разному):
 ```sh
 git merge <branch_name>
 ```
+
+
+## Юзаем GitHub работа с удаленым репозиторием ##
+
