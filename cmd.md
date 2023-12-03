@@ -35,3 +35,7 @@ pwd
 rm <filename>
 ```
 
+5. Показать содержимое файла myfile
+```sh
+cat myfile
+```
